@@ -1,0 +1,65 @@
+#include <Keyboard.h>
+
+int key1 = 10;
+int key2 = 9;
+int key3 = 8;
+int key4 = 3;
+int key5 = 2;
+int key6 = 1;
+
+void setup() {
+  pinMode(key1, INPUT_PULLUP);
+  pinMode(key2, INPUT_PULLUP);
+  pinMode(key3, INPUT_PULLUP);
+  pinMode(key4, INPUT_PULLUP);
+  pinMode(key5, INPUT_PULLUP);
+  pinMode(key6, INPUT_PULLUP);
+  Keyboard.begin();
+}
+
+void pushKey1() {
+//<<KEY1>>
+  delay(300);
+}
+void pushKey2() {
+//<<KEY2>>
+  delay(300);
+}
+void pushKey3() {
+//<<KEY3>>
+  delay(300);
+}
+void pushKey4() {
+//<<KEY4>>
+  delay(300);
+}
+void pushKey5() {
+//<<KEY5>>
+  delay(300);
+}
+void pushKey6() {
+//<<KEY6>>
+  delay(300);
+}
+
+void loop() {
+  if (digitalRead(key1) == LOW) {
+    pushKey1();
+  }
+  if (digitalRead(key2) == LOW) {
+    pushKey2();
+  }
+  if (digitalRead(key3) == LOW) {
+    pushKey3();
+  }
+  if (digitalRead(key4) == LOW) {
+    pushKey4();
+  }
+  if (digitalRead(key5) == LOW) {
+    pushKey5();
+  }
+  if (digitalRead(key6) == LOW) {
+    pushKey6();
+  }
+
+}

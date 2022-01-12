@@ -1,0 +1,8 @@
+{
+    "key1": "// KEY 1\n// home\npush(KEY_RIGHT_CTRL, a);",
+    "key2": "// KEY 2\n// end\npush(KEY_RIGHT_CTRL, e);",
+    "key3": "// KEY 3\nKeyboard.print(\"Hello World!\");",
+    "key4": "// KEY 4\n",
+    "key5": "// KEY 5\n// weird macro\npush(KEY_RIGHT_CTRL, a);\npush(\");\npush(KEY_RIGHT_CTRL, e);\npush(\");\nKeyboard.print(\",\");\npush(KEY_DOWN_ARROW);",
+    "key6": "// KEY 6\n// Sublime black\npush(KEY_RIGHT_CTRL, KEY_RIGHT_ALT, b);"
+}
